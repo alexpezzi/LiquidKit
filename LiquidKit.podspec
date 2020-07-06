@@ -10,6 +10,9 @@ Pod::Spec.new do |spec|
   spec.ios.deployment_target = '10.0'
   spec.ios.frameworks = ['Foundation']
 
+  spec.tvos.deployment_target = '10.0'
+  spec.tvos.frameworks = ['Foundation']
+
   spec.macos.deployment_target = '10.12'
   spec.macos.frameworks = ['Foundation']
 
