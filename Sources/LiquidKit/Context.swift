@@ -221,6 +221,23 @@ private extension Dictionary where Key == String, Value == Token.Value
 			{
 				return nil
 			}
+		
+		case (.array(let array), nil, .some(let remainder)) where remainder.hasPrefix("size"):
+			let rangeFirst = remainder.range(of: "size\\.?", options: .regularExpression)!
+			if rangeFirst.upperBound == remainder.endIndex {
+				return .integer(array.count)
+			}
+			else {
+				return nil
+			}
+			
+		case (.array(let array), nil, .some(let remainder)) where remainder.hasPrefix("count"):
+			let rangeFirst = remainder.range(of: "count\\.?", options: .regularExpression)!
+			if rangeFirst.upperBound == remainder.endIndex {
+				return .integer(array.count)
+			} else {
+				return nil
+			}
 
 		case (.dictionary, nil, nil):
 			return value
