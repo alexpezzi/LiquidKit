@@ -26,6 +26,7 @@
 		15CB06CD214353AF0023648A /* LiquidKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15CB06C9214353AF0023648A /* LiquidKitTests.swift */; };
 		15CB06CE214353AF0023648A /* ParserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15CB06CA214353AF0023648A /* ParserTests.swift */; };
 		15CB06CF214353AF0023648A /* LexerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15CB06CB214353AF0023648A /* LexerTests.swift */; };
+		84B03CE125253FA6001D2891 /* Date+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B03CE025253FA6001D2891 /* Date+Additions.swift */; };
 		A0D0D357C918572FF31414C9 /* Pods_LiquidKitTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C5C29938FF0409DBB4F439C /* Pods_LiquidKitTests.framework */; };
 		A7403C97398CE92D88F31F3D /* Pods_LiquidKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40F60B25220E55AF797E10EE /* Pods_LiquidKit.framework */; };
 /* End PBXBuildFile section */
@@ -68,6 +69,7 @@
 		56A043B9373D66E61E4AE9F9 /* Pods-LiquidKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LiquidKit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LiquidKit/Pods-LiquidKit.debug.xcconfig"; sourceTree = "<group>"; };
 		5C5C29938FF0409DBB4F439C /* Pods_LiquidKitTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LiquidKitTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		69B82FE65BD2E68ACDF00409 /* Pods-LiquidKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LiquidKit.release.xcconfig"; path = "Pods/Target Support Files/Pods-LiquidKit/Pods-LiquidKit.release.xcconfig"; sourceTree = "<group>"; };
+		84B03CE025253FA6001D2891 /* Date+Additions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Additions.swift"; sourceTree = "<group>"; };
 		AFBB966467B345AC36B068C9 /* Pods_LiquidTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LiquidTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E25A21878450F21290306779 /* Pods_Liquid.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Liquid.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F65DEF7DAFF690CF3D4E6632 /* Pods-LiquidKitTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LiquidKitTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LiquidKitTests/Pods-LiquidKitTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -130,6 +132,7 @@
 				15CB06B8214353A70023648A /* Token.swift */,
 				1532BE52214E8A47009AE815 /* Operator.swift */,
 				1544DA0821699888008EF8EC /* NSRegularExpression+Additions.swift */,
+				84B03CE025253FA6001D2891 /* Date+Additions.swift */,
 			);
 			name = LiquidKit;
 			path = Sources/LiquidKit;
@@ -346,6 +349,7 @@
 				152FDD25214709A6003C2C63 /* Double+Extensions.swift in Sources */,
 				15CB06C6214353A70023648A /* String+Extensions.swift in Sources */,
 				15CB06C3214353A70023648A /* Error.swift in Sources */,
+				84B03CE125253FA6001D2891 /* Date+Additions.swift in Sources */,
 				1544DA0921699888008EF8EC /* NSRegularExpression+Additions.swift in Sources */,
 				15CB06C5214353A70023648A /* Filter.swift in Sources */,
 				15CB06C7214353A70023648A /* Context.swift in Sources */,

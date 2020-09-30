@@ -20,5 +20,4 @@ Pod::Spec.new do |spec|
   spec.module_name = 'LiquidKit'
   
   spec.dependency 'HTMLEntities'
-  spec.dependency 'STRFTimeFormatter'
 end
