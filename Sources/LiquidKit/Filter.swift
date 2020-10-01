@@ -47,6 +47,10 @@ public extension Filter
 			return Date()
 		}
 
+		if let date = ISO8601DateFormatter().date(from: inputString) {
+			return date
+		}
+		
 		let styles: [DateFormatter.Style] = [.none, .short, .medium, .long, .full]
 		let dateFormatter = DateFormatter()
 
